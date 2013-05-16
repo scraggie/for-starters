@@ -1,390 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        <!-- Facebook sharing information tags -->
-        <meta property="og:title" content="*|MC:SUBJECT|*">
-        
-        <title>Alumni Information</title>
-		
-	<style type="text/css">
-		#outlook a{
-			padding:0;
-		}
-		body{
-			width:100% !important;
-		}
-		.ReadMsgBody{
-			width:100%;
-		}
-		.ExternalClass{
-			width:100%;
-		}
-		body{
-			-webkit-text-size-adjust:none;
-		}
-		body{
-			margin:0;
-			padding:0;
-		}
-		img{
-			border:0;
-			height:auto;
-			line-height:100%;
-			outline:none;
-			text-decoration:none;
-		}
-		table td{
-			border-collapse:collapse;
-		}
-		#backgroundTable{
-			height:100% !important;
-			margin:0;
-			padding:0;
-			width:100% !important;
-		}
-	/*
-	@tab Page
-	@section background color
-	@tip Set the background color for your email. You may want to choose one that matches your company's branding.
-	@theme page
-	*/
-		body,#backgroundTable{
-			/*@editable*/background-color:#FAFAFA;
-		}
-	/*
-	@tab Page
-	@section email border
-	@tip Set the border for your email.
-	*/
-		#templateContainer{
-			/*@editable*/border:1px solid #DDDDDD;
-		}
-	/*
-	@tab Page
-	@section heading 1
-	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-	@style heading 1
-	*/
-		h1,.h1{
-			/*@editable*/color:#202020;
-			display:block;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:34px;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:100%;
-			margin-top:0;
-			margin-right:0;
-			margin-bottom:10px;
-			margin-left:0;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Page
-	@section heading 2
-	@tip Set the styling for all second-level headings in your emails.
-	@style heading 2
-	*/
-		h2,.h2{
-			/*@editable*/color:#202020;
-			display:block;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:30px;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:100%;
-			margin-top:0;
-			margin-right:0;
-			margin-bottom:10px;
-			margin-left:0;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Page
-	@section heading 3
-	@tip Set the styling for all third-level headings in your emails.
-	@style heading 3
-	*/
-		h3,.h3{
-			/*@editable*/color:#202020;
-			display:block;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:26px;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:100%;
-			margin-top:0;
-			margin-right:0;
-			margin-bottom:10px;
-			margin-left:0;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Page
-	@section heading 4
-	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
-	@style heading 4
-	*/
-		h4,.h4{
-			/*@editable*/color:#202020;
-			display:block;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:22px;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:100%;
-			margin-top:0;
-			margin-right:0;
-			margin-bottom:10px;
-			margin-left:0;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Header
-	@section preheader style
-	@tip Set the background color for your email's preheader area.
-	@theme page
-	*/
-		#templatePreheader{
-			/*@editable*/background-color:#FAFAFA;
-		}
-	/*
-	@tab Header
-	@section preheader text
-	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
-	*/
-		.preheaderContent div{
-			/*@editable*/color:#505050;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:10px;
-			/*@editable*/line-height:100%;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Header
-	@section preheader link
-	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
-	*/
-		.preheaderContent div a:link,.preheaderContent div a:visited,.preheaderContent div a .yshortcuts {
-			/*@editable*/color:#336699;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
-		}
-	/*
-	@tab Header
-	@section header style
-	@tip Set the background color and border for your email's header area.
-	@theme header
-	*/
-		#templateHeader{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/border-bottom:0;
-		}
 
-		.headerContent{
-			/*@editable*/color:#202020;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:34px;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:100%;
-			/*@editable*/padding:0;
-			/*@editable*/text-align:center;
-			/*@editable*/vertical-align:middle;
-		}
 
-		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts {
-			/*@editable*/color:#336699;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
-		}
-		#headerImage{
-			height:auto;
-			max-width:600px !important;
-		}
-	/*
-	@tab Body
-	@section body style
-	@tip Set the background color for your email's body area.
-	*/
-		#templateContainer,.bodyContent{
-			/*@editable*/background-color:#FFFFFF;
-		}
-	/*
-	@tab Body
-	@section body text
-	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
-	@theme main
-	*/
-		.bodyContent div{
-			/*@editable*/color:#505050;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:14px;
-			/*@editable*/line-height:150%;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Body
-	@section body link
-	@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
-	*/
-		.bodyContent div a:link,.bodyContent div a:visited,.bodyContent div a .yshortcuts {
-			/*@editable*/color:#336699;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
-		}
-		.bodyContent img{
-			display:inline;
-			height:auto;
-		}
 
-		#templateFooter{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/border-top:0;
-		}
+Dear OHIO employee,
 
-		.footerContent div{
-			/*@editable*/color:#707070;
-			/*@editable*/font-family:Arial;
-			/*@editable*/font-size:12px;
-			/*@editable*/line-height:125%;
-			/*@editable*/text-align:left;
-		}
+As an OHIO employee, you are eligible for a discount on auto insurance
+with Nationwide Insurance®. At the Ohio University Alumni Association,
+we are proud to partner with organizations, like Nationwide Insurance,
+that can offer benefits to our alumni as well as Ohio University’s
+faculty and staff. Nationwide is also offering a Vanishing Deductible
+benefit that allows you to take $100 off your deductible for very year
+of safe driving, for up to $500 in savings.
 
-		.footerContent div a:link,.footerContent div a:visited,.footerContent div a .yshortcuts {
-			/*@editable*/color:#336699;
-			/*@editable*/font-weight:normal;
-			/*@editable*/text-decoration:underline;
-		}
-		.footerContent img{
-			display:inline;
-		}
+In addition to the faculty and staff benefits, these partnerships also
+support OUAA programs when faculty and staff purchase products offered
+by our partner organizations.
 
-		#social{
-			/*@editable*/background-color:#FAFAFA;
-			/*@editable*/border:0;
-		}
-	/*
-	@tab Footer
-	@section social bar style
-	@tip Set the background color and border for your email's footer social bar.
-	*/
-		#social div{
-			/*@editable*/text-align:center;
-		}
-	/*
-	@tab Footer
-	@section utility bar style
-	@tip Set the background color and border for your email's footer utility bar.
-	@theme footer
-	*/
-		#utility{
-			/*@editable*/background-color:#FFFFFF;
-			/*@editable*/border:0;
-		}
-	/*
-	@tab Footer
-	@section utility bar style
-	@tip Set the background color and border for your email's footer utility bar.
-	*/
-		#utility div{
-			/*@editable*/text-align:center;
-		}
-		#monkeyRewards img{
-			max-width:190px;
-		}
-		.headerContent a{
-			color:#000000;
-			text-decoration:none;
-		}
-</style></head>
-    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
-    	<center>
-        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
-            	<tr>
-                	<td align="center" valign="top">
-                       
-                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
-                        	<tr>
-                            	<td align="center" valign="top">
-                                    <!-- // Begin Template Header \\ -->
-                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
-                                        <tr>
-                                            <td class="headerContent">
-                                            
-                                            	<!-- // Begin Module: Standard Header Image \\ -->
-                                            	<img src="http://gallery.mailchimp.com/046c51d79a6e82d83220ebbb8/images/AlumniINFO.gif" style="max-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
-                                            	<!-- // End Module: Standard Header Image \\ -->
-                                            
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!-- // End Template Header \\ -->
-                                </td>
-                            </tr>
-                        	<tr>
-                            	<td align="center" valign="top">
-                                    <!-- // Begin Template Body \\ -->
-                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
-                                    	<tr>
-                                            <td valign="top" class="bodyContent">
-                                
-                                                <!-- // Begin Module: Standard Content \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td valign="top">
-                                                            <div mc:edit="std_content00">
-                                                              
-	                                                          <p><strong>Dear OHIO employee,</strong>
-	                                                          <p>As an OHIO employee, you are eligible for a discount on auto insurance with Nationwide Insurance&reg;. At the Ohio University Alumni Association, we are <a href="http://affinity.nationwide.com/affinity/ohio-university/ohio-university-home.jsp?WT.mc_id=nw-te-aff0413acqqbOhioUniversityAlumniAssociation1&WT.seg_4=Affinity-OhioUniversityAlumniAssociation"><img src="http://alumniconnections.com/olc/filelib/OUL/email/Library/General%20Pics/2013/Nationwide/NW_LOGO.jpg" width="200px" align="right" style="margin:20px 0 0 20px;" border="0" /></a>proud to partner with organizations, like Nationwide Insurance, that can offer benefits to our alumni as well as Ohio University&rsquo;s faculty and staff. Nationwide is also offering a <strong>Vanishing Deductible</strong> benefit that allows you to take <strong>$100</strong> off your deductible for very year of safe driving, for up to <strong>$500</strong> in savings.</p>
-                                                              <p>In addition to the faculty and staff benefits, these partnerships also support OUAA programs when faculty and staff purchase products offered by our partner organizations.  </p>
-                                                              <p><a href="http://affinity.nationwide.com/affinity/ohio-university/ohio-university-home.jsp?WT.mc_id=nw-te-aff0413acqqbOhioUniversityAlumniAssociation1&amp;WT.seg_4=Affinity-OhioUniversityAlumniAssociation"><strong>Get a quote or call your local agent to see how much you could save.</strong></a>                                                              </p>
-                                                              <p>Sincerely,</p>
-                                                              <p><strong>The Ohio University Alumni Association                                                          </strong></p>
-                                                              <p>&nbsp;</p>
-                                                          </div></td>
-                                                    </tr>
-                                                </table>
-                                                <!-- // End Module: Standard Content \\ -->
-                                                
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!-- // End Template Body \\ -->
-                                </td>
-                            </tr>
-                        	<tr>
-                            	<td align="center" valign="top">
-                                    <!-- // Begin Template Footer \\ -->
-                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
-                                    	<tr>
-                                        	<td valign="top" class="footerContent">
-                                            
-                                                <!-- // Begin Module: Standard Footer \\ -->
-                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td width="540" valign="middle" id="utility">
-                                                            <hr /><div mc:edit="std_utility">
-                                                              <p>Your Ohio University Alumni Association connects you!<br />
-                                                                Shop the Bobcat Store: <a href="http://bobcatstore.ohioalumni.org">bobcatstore.ohioalumni.org</a></p>
-                                                              <p> &#169; 2013 Ohio University Alumni Association, 52 University Terrace, Athens, OH 45701.<br />
-Questions? E-mail <a href="mailto:alumni@ohio.edu">alumni@ohio.edu</a>. </p>
-                                                              <p> <a href="../1345-Catmail Upgrade/${.vars[&quot;linktags__unsubscribe_link_html&quot;]}">Click here for options on receiving e-mail</a>.
-</p>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!-- // End Module: Standard Footer \\ -->
-                                            
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!-- // End Template Footer \\ -->
-                                </td>
-                            </tr>
-                        </table>
-                        <br>
-                    </td>
-                </tr>
-            </table>
-        </center>
-    </body>${.vars[&quot;generaltags__open_count&quot;]}
-</html>
+[1]Get a quote or call your local agent to see how much you could save.
+  Links:
+    1. http://affinity.nationwide.com/affinity/ohio-university/ohio-university-home.jsp?WT.mc_id=nw-te-aff0413acqqbOhioUniversityAlumniAssociation1&WT.seg_4=Affinity-OhioUniversityAlumniAssociation
+
+Sincerely,
+
+The Ohio University Alumni Association
+
+
+
+   __________________________________________________________________
+
+   Your Ohio University Alumni Association connects you!
+   Shop the Bobcat Store: [2]bobcatstore.ohioalumni.org
+  Links:
+    2. http://bobcatstore.ohioalumni.org
+
+   © 2013 Ohio University Alumni Association, 52 University Terrace,
+   Athens, OH 45701.
+   Questions? E-mail [3]alumni@ohio.edu.
+  Links:
+    3. mailto:alumni@ohio.edu
+
+   [4]Click here for options on receiving e-mail.
+  Links:
+    4.  ${.vars["linktags__unsubscribe_link_text"]}"
+
